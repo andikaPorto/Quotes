@@ -15,7 +15,7 @@ body {
 
 /* Background untuk halaman Inspiratif */
 body.inspiratif {
-    background-image: url("backgroundinspirasi.jpg");  
+    background-image: url("images/backgroundinspirasi.jpg");  
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body.inspiratif {
 
 /* Background untuk halaman Agama */
 body.agama {
-    background-image: url('backgroundagama.jpg'); 
+    background-image: url("backgroundagama.jpg"); 
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
