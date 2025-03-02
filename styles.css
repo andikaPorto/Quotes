@@ -173,20 +173,22 @@ h1 {
     background: darkred;
 }
 
-/* Responsif untuk layar kecil */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex; /* Membuat menu tetap horizontal */
+    justify-content: center; /* Memusatkan menu */
+    gap: 20px; /* Memberikan jarak antar item menu */
+    flex-wrap: nowrap; /* Mencegah menu turun ke bawah */
+}
+
 @media (max-width: 768px) {
-    .quotes-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .quote-box {
-        width: 90%;
-    }
-
-    .navbar ul li {
-        display: block;
-        margin: 10px 0;
+    .navbar ul {
+        flex-direction: row; /* Pastikan tetap horizontal */
+        flex-wrap: wrap; /* Jika tidak cukup tempat, akan tetap rapi */
     }
 }
+
 
