@@ -15,7 +15,7 @@ body {
 
 /* Background untuk halaman Inspiratif */
 body.inspiratif {
-    background-image: url('images/backgroundinspirasi.jpg');  
+    background-image: url("/repository/images/backgroundinspirasi.jpg");  
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
